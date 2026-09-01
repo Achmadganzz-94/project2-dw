@@ -5,7 +5,6 @@ export interface Movie {
   title: string;
   type: string;
   poster: string;
-  year: number;
   is_watched: boolean;
   description: string;
 }
