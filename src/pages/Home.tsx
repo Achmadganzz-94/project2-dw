@@ -20,8 +20,8 @@ export default function Home() {
   const filteredMovies = movies.filter((movie) =>
     movie.title.toLowerCase().includes(search.toLowerCase()),
   );
-
   return (
+
     <>
       <Navbar />
 

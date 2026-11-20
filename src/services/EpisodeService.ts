@@ -1,6 +1,7 @@
 import type { episodes } from "@/types/Episode";
 import { Episodes } from "@/Database/episode";
 
+
 export const getEpisode = (): episodes[] => {
   const data = localStorage.getItem("episodes");
 
